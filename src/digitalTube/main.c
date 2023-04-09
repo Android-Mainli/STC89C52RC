@@ -1,5 +1,4 @@
-#include <8051.h>
-#include <delayTime.h>
+#include "base.h"
 
 /**
  * 数码管

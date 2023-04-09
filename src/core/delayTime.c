@@ -2,15 +2,12 @@
 // Created by Mainli on 2023/4/9.
 //
 
-#ifndef TEST_DELAYTIME_H
-#define TEST_DELAYTIME_H
-
+#include "delayTime.h"
 /**
  * 自旋延迟
  * @param xms 毫秒数
  */
-void DelayMs(unsigned int xms)        //@12.000MHz
-{
+void DelayMs(unsigned int xms) {
     unsigned char i, j;
     while (xms--) {
         i = 2;
@@ -20,5 +17,3 @@ void DelayMs(unsigned int xms)        //@12.000MHz
         } while (--i);
     }
 }
-
-#endif //TEST_DELAYTIME_H

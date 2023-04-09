@@ -2,9 +2,7 @@
 // Created by Mainli on 2023/4/9.
 //
 
-#ifndef TEST_BITUTILS_H
-#define TEST_BITUTILS_H
-
+#include "bitUtils.h"
 unsigned int reverse_bit(unsigned int x, unsigned char num) {
     int bit_ = 0;
     int i;
@@ -17,5 +15,3 @@ unsigned int reverse_bit(unsigned int x, unsigned char num) {
     }
     return (sum);
 }
-
-#endif //TEST_BITUTILS_H
