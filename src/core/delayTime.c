@@ -2,7 +2,8 @@
 // Created by Mainli on 2023/4/9.
 //
 
-#include "delayTime.h"
+#include <delayTime.h>
+
 /**
  * 自旋延迟
  * @param xms 毫秒数

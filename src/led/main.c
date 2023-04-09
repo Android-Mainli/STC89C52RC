@@ -1,5 +1,4 @@
-#include <REGX52.H>
-#include "core/delayTime.h"
+#include "base.h"
 
 /**
  * Led灯闪烁
@@ -73,3 +72,7 @@ void testLedWaterLamp2() {
         }
     }
 }
+//int main(){
+//    testLedWaterLamp2();
+//    return 0;
+//}

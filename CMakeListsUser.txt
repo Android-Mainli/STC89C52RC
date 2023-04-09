@@ -1,0 +1,1 @@
+include_directories("${ENV_HOME_PATH}/.platformio/packages/toolchain-sdcc/include/mcs51")

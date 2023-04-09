@@ -2,7 +2,7 @@
 // Created by Mainli on 2023/4/9.
 //
 
-#include "bitUtils.h"
+#include <bitUtils.h>
 unsigned int reverse_bit(unsigned int x, unsigned char num) {
     int bit_ = 0;
     int i;

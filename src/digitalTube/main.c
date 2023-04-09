@@ -1,5 +1,4 @@
 #include "base.h"
-
 /**
  * 数码管
  */

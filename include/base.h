@@ -5,7 +5,8 @@
 #ifndef TEST_BASE_H
 #define TEST_BASE_H
 
-#include <8051.h>
-#include <core/delayTime.h>
+#include "8051.h"
+#include "delayTime.h"
+
 
 #endif //TEST_BASE_H

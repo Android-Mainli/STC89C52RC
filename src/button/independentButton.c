@@ -1,5 +1,5 @@
 #include "base.h"
-#include "core/bitUtils.h"
+#include "bitUtils.h"
 
 /**
  * LED二进制递增
@@ -32,7 +32,7 @@ void independentButtonLEDOpenClose() {
             DelayMs(20);//按下消抖动 抖动时间10-15ms
             while (P3_1 == 0);//持续按下则不变
             DelayMs(20);//抬起消抖动
-            P2_7 = ~P2_7;
+            P2_7 = !P2_7;
         }
     }
 }
@@ -78,7 +78,13 @@ void independentButtonK1FanSwitch() {
             DelayMs(20);
             while (P3_1 == 0);
             DelayMs(20);
-            P1_0 = ~P1_0;
+            //P1_0 = ~P1_0;会警告如下bit/bool/unsigned char variables can give unexpected results due to promotion to int 并且取反失败
+            P1_0 = !P1_0;
         }
     }
+}
+
+int main() {
+    independentButtonLEDOpenClose();
+    return 1;
 }
