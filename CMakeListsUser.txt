@@ -1,1 +1,4 @@
+# mac下导包
+include_directories("$ENV{HOME}/.platformio/packages/toolchain-sdcc/share/sdcc/include/mcs51")
+# windows下导包
 include_directories("${ENV_HOME_PATH}/.platformio/packages/toolchain-sdcc/include/mcs51")
