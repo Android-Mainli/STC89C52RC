@@ -8,5 +8,6 @@
 #include <8052.h>
 #include "delayTime.h"
 
+#define _nop_() __asm nop __endasm
 
 #endif //TEST_BASE_H

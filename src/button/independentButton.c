@@ -84,7 +84,7 @@ void independentButtonK1FanSwitch() {
     }
 }
 
-int main() {
-    independentButtonLEDOpenClose();
-    return 1;
-}
+//int main() {
+//    independentButtonLEDOpenClose();
+//    return 1;
+//}
