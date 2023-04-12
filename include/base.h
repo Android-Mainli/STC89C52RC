@@ -2,8 +2,8 @@
 // Created by Mainli on 2023/4/9.
 //
 
-#ifndef TEST_BASE_H
-#define TEST_BASE_H
+#ifndef STC89C52RC_BASE_H
+#define STC89C52RC_BASE_H
 
 #include <8052.h>
 #include "delayTime.h"

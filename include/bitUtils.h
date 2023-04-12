@@ -2,8 +2,8 @@
 // Created by Mainli on 2023/4/9.
 //
 
-#ifndef TEST_BITUTILS_H
-#define TEST_BITUTILS_H
+#ifndef STC89C52RC_BITUTILS_H
+#define STC89C52RC_BITUTILS_H
 
 unsigned int reverse_bit(unsigned int x, unsigned char num);
 

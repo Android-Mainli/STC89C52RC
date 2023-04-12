@@ -2,8 +2,8 @@
 // Created by Mainli on 2023/4/9.
 //
 
-#ifndef TEST_DELAYTIME_H
-#define TEST_DELAYTIME_H
+#ifndef STC89C52RC_DELAYTIME_H
+#define STC89C52RC_DELAYTIME_H
 
 /**
  * 自旋延迟

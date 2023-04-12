@@ -1,5 +1,5 @@
-#ifndef __LCD1602_H__
-#define __LCD1602_H__
+#ifndef STC89C52RC_LCD1602_H
+#define STC89C52RC_LCD1602_H
 
 #include <8052.h>
 
