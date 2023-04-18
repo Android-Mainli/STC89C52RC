@@ -14,8 +14,8 @@ import (
 
 func main() {
 	protocol := flag.String("P", "auto", "协议支持{stc89,stc12a,stc12b,stc12,stc15a,stc15,stc8,usb15,auto}")
-	serialPortDevice := flag.String("p", "", "串口设备")
-	firmware := flag.String("f", "", "要烧录的固件路径")
+	serialPortDevice := flag.String("p", "/dev/tty.wchusbserial1110", "串口设备")
+	firmware := flag.String("f", ".pio/build/STC89C52RC/firmware.hex", "要烧录的固件路径")
 	flag.Parse()
 	if *serialPortDevice == "" {
 		fmt.Println("请输入串口号 如: -p /dev/tty.wchusbserial1110")
